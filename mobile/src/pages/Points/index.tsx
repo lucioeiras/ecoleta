@@ -105,7 +105,7 @@ const Points = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
         <TouchableOpacity onPress={handleNavigateBack}>
-          <Icon name="arrow-left" size={24} color="#34CB79" />
+          <Icon style={{ transform: [{rotate: "180deg"}] }} name="log-out" size={24} color="#34CB79" />
         </TouchableOpacity>
 
         <Text style={styles.title}>😀 Bem Vindo</Text>
